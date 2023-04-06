@@ -1,0 +1,44 @@
+﻿  pch.cpp
+  ColorDetection.cpp
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(7,19): error C2871: 'cv': a namespace with this name does not exist
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(13,9): error C2065: 'Mat': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(13,13): error C2146: syntax error: missing ';' before identifier 'image'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(13,34): error C2065: 'CV_8UC3': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(13,13): error C3861: 'image': identifier not found
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(14,9): error C2065: 'Mat': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(14,13): error C2146: syntax error: missing ';' before identifier 'hsvImage'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(14,13): error C2065: 'hsvImage': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(16,18): error C2065: 'image': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(16,25): error C2065: 'hsvImage': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(16,35): error C2065: 'COLOR_BGR2HSV': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(16,9): error C3861: 'cvtColor': identifier not found
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(18,9): error C2065: 'Scalar': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(18,16): error C2146: syntax error: missing ';' before identifier 'lowerBound'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(18,16): error C3861: 'lowerBound': identifier not found
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(19,9): error C2065: 'Scalar': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(19,16): error C2146: syntax error: missing ';' before identifier 'upperBound'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(19,16): error C3861: 'upperBound': identifier not found
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(21,9): error C2065: 'Mat': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(21,13): error C2146: syntax error: missing ';' before identifier 'binaryImage'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(21,13): error C2065: 'binaryImage': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(22,17): error C2065: 'hsvImage': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(22,27): error C2065: 'lowerBound': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(22,39): error C2065: 'upperBound': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(22,51): error C2065: 'binaryImage': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(22,9): error C3861: 'inRange': identifier not found
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(24,14): error C2039: 'vector': is not a member of 'std'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(24,20): error C2065: 'vector': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(24,26): error C2039: 'vector': is not a member of 'std'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(24,32): error C2065: 'vector': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(24,33): error C2065: 'Point': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(24,41): error C2065: 'contours': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(25,22): error C2065: 'binaryImage': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(25,35): error C2065: 'contours': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(25,45): error C2065: 'RETR_EXTERNAL': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(25,60): error C2065: 'CHAIN_APPROX_SIMPLE': undeclared identifier
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(25,9): error C3861: 'findContours': identifier not found
+C:\Users\chris\OneDrive\Documents\VSCode\357Project\CMOREPlugin\CMOREPlugin\ColorDetection.cpp(27,41): error C2065: 'contours': undeclared identifier
+  dllmain.cpp
+  Generating Code...
