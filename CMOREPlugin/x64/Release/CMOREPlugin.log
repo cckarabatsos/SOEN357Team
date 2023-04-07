@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  ColorDetection.cpp
+C:\Users\Saad\Documents\school\W22\SOEN 357\Project\CMOREPlugin\ColorDetection.cpp(11,10): warning C4273: 'DetectColors': inconsistent dll linkage
+C:\Users\Saad\Documents\school\W22\SOEN 357\Project\CMOREPlugin\ColorDetection.h(11,29): message : see previous definition of 'DetectColors'
+  dllmain.cpp
+     Creating library C:\Users\Saad\Documents\school\W22\SOEN 357\Project\x64\Release\CMOREPlugin.lib and object C:\Users\Saad\Documents\school\W22\SOEN 357\Project\x64\Release\CMOREPlugin.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 43 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CMOREPlugin.vcxproj -> C:\Users\Saad\Documents\school\W22\SOEN 357\Project\x64\Release\CMOREPlugin.dll

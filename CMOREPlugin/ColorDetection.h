@@ -1,9 +1,9 @@
 #pragma once
 
 #ifdef COLORDETECTION_EXPORTS
-#define COLORDETECTION_API declspec(dllexport)
+#define COLORDETECTION_API __declspec(dllexport)
 #else
-#define COLORDETECTION_API declspec(dllimport)
+#define COLORDETECTION_API __declspec(dllimport)
 #endif
 
 extern "C"
