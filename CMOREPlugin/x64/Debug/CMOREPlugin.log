@@ -1,8 +1,0 @@
-﻿  pch.cpp
-  ColorDetection.cpp
-C:\Users\Saad\Documents\school\W22\SOEN 357\Project\CMOREPlugin\ColorDetection.cpp(11,10): warning C4273: 'DetectColors': inconsistent dll linkage
-C:\Users\Saad\Documents\school\W22\SOEN 357\Project\CMOREPlugin\ColorDetection.h(11,29): message : see previous definition of 'DetectColors'
-  dllmain.cpp
-  Generating Code...
-     Creating library C:\Users\Saad\Documents\school\W22\SOEN 357\Project\x64\Debug\CMOREPlugin.lib and object C:\Users\Saad\Documents\school\W22\SOEN 357\Project\x64\Debug\CMOREPlugin.exp
-  CMOREPlugin.vcxproj -> C:\Users\Saad\Documents\school\W22\SOEN 357\Project\x64\Debug\CMOREPlugin.dll

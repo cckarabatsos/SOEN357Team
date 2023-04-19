@@ -55,17 +55,29 @@ def process_frame(frame):
 
     return frame
 
-def main():
-    cap = cv2.VideoCapture(0)
 
+def main():
+
+    cap = cv2.VideoCapture(0)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
+    frame_count = 0
+    last_processed_frame = None
     while True:
         ret, frame = cap.read()
+        frame_count += 1
 
         if not ret:
             break
 
-        processed_frame = process_frame(frame)
-        cv2.imshow('Color Detection', processed_frame)
+        if frame_count % 10 == 0:
+            last_processed_frame = process_frame(frame)
+
+        if last_processed_frame is not None:
+            cv2.imshow('Color Detection', last_processed_frame)
+        else:
+            cv2.imshow('Color Detection', frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
@@ -74,4 +86,4 @@ def main():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    main()
+    main()"
